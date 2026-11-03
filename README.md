@@ -33,6 +33,6 @@ The grouping routines accept an object with `train_U2I`, `train_I2U`, `pop_train
 
 ## Source and acknowledgments
 
-These routines were extracted from the frozen DGDRL server source used in the revision work. Function bodies are retained; imports, formatting, and explanatory docstrings have been organized for this partial release. `SOURCE_MANIFEST.json` records the source and exported-file hashes.
+These routines were extracted from the frozen DGDRL server source used in the revision work. Function bodies are retained; imports, formatting, and explanatory docstrings have been organized for this partial release.
 
 The implementation builds on [PAAC: Popularity-Aware Alignment and Contrast for Mitigating Popularity Bias](https://github.com/miaomiao-cai2/KDD2024-PAAC), with bilateral grouping/alignment and user-side contrastive integration in DGDRL. We acknowledge the original authors and retain the applicable upstream rights. This repository does not relicense third-party contributions.
